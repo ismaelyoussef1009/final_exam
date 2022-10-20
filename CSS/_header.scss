@@ -1,0 +1,94 @@
+header{
+   .main_header{
+    height: 11vh;
+    background: white;
+    display: flex;
+    border-bottom: 1px solid gray;
+    position: ;
+    .items{
+        width: 30%;
+        height: 11vh;
+        // background: blue;
+        display: flex;
+        .icon{
+            width: 10%;
+            height: 11vh;
+            // background: white;
+            position: absolute;
+            button{
+                border: none;
+                margin: 17px 0 0 20px;
+                i{
+                    font-size: 19px;
+                }
+            }
+        }
+        .navigation{
+            width: 15%;
+            height: 11vh;
+            // background: palevioletred;
+            position: absolute;
+            margin-left: 70px;
+            strong{
+                h1{
+                    padding-top: 4px;
+                    font-size: 20px;
+                }
+            }
+            nav{
+                ul{
+                    display: flex;
+                    gap: 10px;
+                    padding-top: 8px;
+                    list-style-type: none;
+                    li{
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+
+    .profile{
+        width: 50%;
+        height: 11vh;
+        // background: blue;
+        position: absolute;
+        left: 50%;
+        i{
+            color: white;
+            // left: 55%;
+            // padding-top: 20px;
+            // position: absolute;
+        }
+        input{
+            width: 27%;
+            padding: 5px;
+            left: 54%;
+            margin: 15px 0 0 -5px;
+            border-radius: 10px;
+            border: 1px solid gray;
+            position: absolute;
+        }
+        .image{
+            width: 20%;
+            height: 11vh;
+            // background: red;
+            left: 80%;
+            position: absolute;
+            margin-top: -18.9px;
+            img{
+                width: 25%;
+                gap: 50px;
+                border-radius: 50px;
+                margin: 12px 0 0 18px;
+
+                .man{
+                    margin-left: 50px;
+                    background: black;
+                }
+            }
+        }
+    }
+   } 
+}
